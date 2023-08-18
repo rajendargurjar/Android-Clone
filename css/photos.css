@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/flower-7994489_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* section one */
+.section_one{
+    width: 35%;
+    height: 42rem;
+    margin-left: 25rem;
+    background-color: black;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+
+.header{
+    height: 2rem;
+    padding-top: .3rem;
+    display: flex;
+    z-index: -100;
+    /* background-color: rgb(37, 12, 179); */
+}
+.header .header_div_two {
+    margin-left: 14rem;
+   
+}
+.header .header_div_two i{
+    margin-right: .5rem;
+   
+}
+.header .time{
+    margin-left: 2rem;
+}
+.footer{
+    height: 2rem; 
+}
+.footer a i{
+    margin-left: 6.5rem;
+    color: crimson;
+}
+.main_div{
+    overflow: auto;
+    height: 37rem;
+    margin-left: 2rem;
+}
+.main_div .row img{
+    border-radius: 10px;
+    padding: .2rem;
+    height: 7rem;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+}

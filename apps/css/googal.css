@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/flower-7994489_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* section one */
+.section_one{
+    width: 35%;
+    height: 42rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+
+.header{
+    height: 2rem;
+    padding-top: .6rem;
+    display: flex;
+    z-index: -100;
+    /* background-color: rgb(37, 12, 179); */
+}
+.header .header_div_two {
+    margin-left: 14rem;
+   
+}
+.header .header_div_two i{
+    margin-right: .5rem;
+   
+}
+.header .time{
+    margin-left: 2rem;
+}
+.footer{
+    height: 2rem; 
+}
+.footer a i{
+    margin-left: 6.5rem;
+    color: crimson;
+}
+/* main div */
+.main_div {
+    color: white;
+    height: 37rem;
+  overflow: auto;
+  background-color: black;
+}
+.main_div h1{ 
+    text-align: center;
+    font-size: 55px;
+    margin-top: 2rem;
+}
+.search_div{
+    margin-top: 2rem;
+    padding: .7rem;
+    width: 88%;
+    margin-left: 1rem;
+    border-radius: 50px;
+    background-color: rgb(97, 88, 88);
+}
+.search_div a{
+    color: white;
+    margin-left: 2rem;
+   font-size: 20px;
+   text-decoration: none;
+}
+.search_div a i{
+    color: white;
+    float: right;
+    margin-right: 3rem;
+}
+.shop_div{
+    margin-top: 2rem;
+    
+    
+}
+.main_div .shop_div .span1{
+   color: white;
+   width: 50%;
+   margin-left: 4rem;
+   padding: .5rem;
+   border-radius: 20px;
+   background-color: rgb(80, 75, 75);
+   
+}
+.main_div .shop_div .span2{
+    color: white;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 20px;
+    margin-left: 4rem;
+    background-color: rgb(80, 75, 75);
+    
+ }
+.main_div .shop_div i{
+    text-decoration: none;
+
+}
+.temp_div{
+    margin-top: 1.5rem;
+    display: flex;
+    margin-left: 1rem;
+    padding: .5rem;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.temp_div span{
+    margin-left: 19rem;
+}
+.temp_div i{
+    margin-left: .5rem;
+}
+
+.container img{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.container p{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+   width: 90%;
+   
+}
+.container .icons i{
+   float: right;
+   margin-right: 2rem;
+   margin-top: 1rem;
+   color: rgb(114, 92, 92);
+}

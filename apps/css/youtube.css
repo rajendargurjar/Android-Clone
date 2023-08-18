@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/flower-7994489_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* section one */
+.section_one{
+    width: 35%;
+    height: 42rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+  background: linear-gradient(30deg,blue,pink);
+    border: 3px solid red;
+}
+
+.header{
+    height: 2rem;
+    padding-top: .6rem;
+    display: flex;
+    z-index: -100;
+    /* background-color: rgb(37, 12, 179); */
+}
+.header .header_div_two {
+    margin-left: 14rem;
+   
+}
+.header .header_div_two i{
+    margin-right: .5rem;
+   
+}
+.header .time{
+    margin-left: 2rem;
+}
+.footer{
+    height: 2rem; 
+}
+.footer a i{
+    margin-left: 6.5rem;
+    color: crimson;
+}
+/* main div */
+.main_div{
+    height: 34.5rem;
+    overflow: auto;
+}
+.main_div header{
+    display: flex;
+}
+header span{
+    margin-top: 1.7rem;
+    font-size: 25px;
+    margin-left: -1rem;
+}
+.other_icon{
+   float: right;
+   margin-right: .4rem;
+   margin-top: -3.4rem;
+}
+.other_icon i{
+    margin-right: 1.5rem;
+    
+}
+.all_div ul{
+    list-style: none;
+    display: flex;
+    margin-top: -2rem;
+    margin-left: 2rem;
+    color: white;
+}
+.all_div i{
+    margin-left: .4rem;
+    margin-right: .4rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: rgb(104, 88, 88);
+ }
+.all_div ul li{
+   margin-left: .4rem;
+   margin-right: .4rem;
+   padding: .5rem;
+   border-radius: 10px;
+   background-color: rgb(104, 88, 88);
+}
+.footer_icons{
+    margin-left: .5rem;
+    margin-top: .5rem;
+}
+.footer_icons i{
+    margin-left: 1rem;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.footer_icons   .o {
+    font-size: 25px;
+   
+
+}
+/* video div */
+.main_div video{
+    margin-top: 1rem;
+    margin-left: .7rem;
+    border-radius: 10px;
+   
+}
+.main_div p{
+    width: 95%;
+    margin-top: 1rem;
+    margin-left: .7rem;
+}
